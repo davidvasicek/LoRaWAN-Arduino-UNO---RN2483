@@ -8,7 +8,8 @@ V rámci tohoto projektu bylo vytvořeno 8 čidel založených na deskách LoRaW
 
 Pro účely testování bylo zapotřebí obejít Duty Cycle modulu RN2483, který nám omezoval zasílání zpráv v kratších intervalech. Každý takovýto modul RN2483 obsahuje vnitřní čítač zabraňující porušení vysílajících oprávnění přesahující 1% vysílající hodiny. Proto byl modul opakovaně resetován, čímž byl vymazán i jeho vnitřní čítač a možnost testování v kratších časových intervalech.
 
-
+![alt text](https://github.com/davidvasicek/LoRaWAN-Arduino-UNO---RN2483/blob/master/IMG_LoRaWAN-Arduino-UNO.JPG)
+![alt text](https://github.com/davidvasicek/LoRaWAN-Arduino-UNO---RN2483/blob/master/IMG_LoRaWAN-Arduino-UNO_1.JPG)
 ### Specifikace
 
 LoRaWAN Arduino UNO je malý modulek, na jehož horní straně je transceiver RN2483 firmy Microchip, který je zkomunikovaný s procesorem ATmega328p ležícím na spodní straně desky. V procesoru je bootloader Arduino UNO (možno adaptovat na NANO). Modul je přímo přizpůsoben pro komunikaci v sítích LoRaWAN (více info na things.cz nebo na stránkách Českých Radiokomunikací a.s.). K dispozici jsou tato rozhraní: [1]
