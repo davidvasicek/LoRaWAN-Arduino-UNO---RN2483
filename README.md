@@ -6,10 +6,12 @@ LoRaWAN Arduino UNO je malý modulek, na jehož horní straně je transceiver RN
 -	1 analogový vstup/výstup
 -	vstup pro UART/USB převodník
 -	anténní konektor SMA samice (na přání možno osadit U.FL IPX konektorem pro vyvedení antény pigtailem)
-Napájení:
+
+**Napájení:**
 -	flash mód 5V
 -	provozní mód 3,3V (bateriové napájení v rozmezí 2,4V až 4,1V)
-Naměřená spotřeba:
+
+**Naměřená spotřeba:**
 -	power down mód cca 20uA
 -	normální režim cca 25mA
 -	vysílací špička cca 120mA
