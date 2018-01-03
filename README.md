@@ -24,28 +24,31 @@ LoRaWAN Arduino UNO je malý modulek, na jehož horní straně je transceiver RN
 **Naměřená spotřeba:**
 -	power down mód cca 20uA
 -	normální režim cca 25mA
--	vysílací špička cca 120mA                                                                                                              [1]
+-	vysílací špička cca 120mA
 
 ### Tutoriál
 
+Výsledkem tohoto tutoriálu je čidlo založené na desce LoRaWAN Arduino UNO s vysílacím modulem RN2483 umožňující zasílaní krátkých zpráv prostřednictvím bezdrátové technologie LoRa. Tyto zprávy mohou obsahovat například informace o okolních teplotách získávány z externího teplotního senzoru, které je možné k desce LoRaWAN Arduino UNO připojit, nebo informace z mnoha jiných senzorů kompatibilních s touto deskou.
+
 Kompletní tutoriál naleznete ve formátu .pdf [zde](https://www.google.com)
                                                                                         
-
 ### Obsah adresáře
 
 - **LoRa_RN5.brd** - DPS LoRaWAN Arduino UNO (Eagle)
 - **LoRa_RN5.sch** - schéma LoRaWAN Arduino UNO (Eagle)
 - **RN2483-Arduino-Library-master.zip** - knihovna pro RN2483 dostupná [zde](https://github.com/jpmeijers/RN2483-Arduino-Library)
-- code.ino - Kód pro Arduino IDE
-- Tutorial.pdf - Návod na 
+- **LoRaWAN-Arduino-UNO---RN2483_code.ino** - Kód pro Arduino IDE
+- **LoRaWAN-Arduino-UNO---RN2483_tutorial.pdf** - Návod na 
+- **LoRaDHT22**
+
+### Užitečné odkazy
+
+- Specifikace LoRaWAN Arduino UNO - RN2483 - e-shop [zde](https://www.arduinotech.cz/produkt/lorawan-arduino-uno/)
+- Specifikace RN2483 [zde](http://ww1.microchip.com/downloads/en/DeviceDoc/50002346C.pdf)
+- Popis technologie LoRa [zde](http://www.raycom.cz/data/article/filemanager/LoRa.pdf)
+- Článek LPWAN - LoRaWAN, Sigfox - vítejte v IoT! [zde](https://www.arduinotech.cz/inpage/lpwan-lorawan-sigfox-vitejte-v-iot/)
+- Článek LoRaWAN Arduino UNO s transceiverem RHF76 [zde](https://www.arduinotech.cz/inpage/lorawan-arduino-uno-s-transceiverem-rhf76/)
 
 ### Zdroje
 
 - [1] [https://www.arduinotech.cz/produkt/lorawan-arduino-uno/](https://www.arduinotech.cz/produkt/lorawan-arduino-uno/) 
-- [2] [https://www.arduinotech.cz/inpage/lorawan-arduino-uno-s-transceiverem-rhf76/](https://www.arduinotech.cz/inpage/lorawan-arduino-uno-s-transceiverem-rhf76/)
-[1] []()
-[1] []()
-[1] []()
-[1] []()
-[1] []()
-[1] []()
