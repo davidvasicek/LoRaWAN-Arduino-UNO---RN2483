@@ -42,6 +42,8 @@ Kompletní tutoriál naleznete ve formátu .pdf [zde](https://github.com/davidva
 - **LoRaWAN-Arduino-UNO---RN2483_code.ino** - kód pro Arduino IDE
 - **LoRaWAN-Arduino-UNO---RN2483_tutorial.pdf** - tutoriál
 - **LoRaDHT22** - ukázkový kód pro připojení teplotního čidla DHT22 k LoRaWAN Arduino UNO
+- **IMG_LoRaWAN-Arduino-UNO.jpg** - foto vytvořených čidel
+- **IMG_LoRaWAN-Arduino-UNO_1.jpg** - foto vytvořených čidel
 
 ### Užitečné odkazy
 
