@@ -1,6 +1,6 @@
 # LoRaWAN-Arduino-UNO---RN2483
 
-### Účel projektu
+### Cíl projektu
 
 Tento projekt byl vytvořen za účelem testování LoRaWAN sítě v oblasti Ostravy, kterou v rámci svých cvičení realizují studenti předmětu Radiokomunikační technika/Rádiové sítě vyučovaného na Katedře telekomunikační techniky, VŠB-TU Ostrava
  
@@ -37,9 +37,9 @@ Kompletní tutoriál naleznete ve formátu .pdf [zde](https://github.com/davidva
 - **LoRa_RN5.brd** - DPS LoRaWAN Arduino UNO (Eagle)
 - **LoRa_RN5.sch** - schéma LoRaWAN Arduino UNO (Eagle)
 - **RN2483-Arduino-Library-master.zip** - knihovna pro RN2483 dostupná [zde](https://github.com/jpmeijers/RN2483-Arduino-Library)
-- **LoRaWAN-Arduino-UNO---RN2483_code.ino** - Kód pro Arduino IDE
-- **LoRaWAN-Arduino-UNO---RN2483_tutorial.pdf** - Návod na 
-- **LoRaDHT22**
+- **LoRaWAN-Arduino-UNO---RN2483_code.ino** - kód pro Arduino IDE
+- **LoRaWAN-Arduino-UNO---RN2483_tutorial.pdf** - tutoriál
+- **LoRaDHT22** - ukázkový kód pro připojení teplotního čidla DHT22 k LoRaWAN Arduino UNO
 
 ### Užitečné odkazy
 
