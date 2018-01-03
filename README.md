@@ -24,7 +24,7 @@ LoRaWAN Arduino UNO je malý modulek, na jehož horní straně je transceiver RN
 **Naměřená spotřeba:**
 -	power down mód cca 20uA
 -	normální režim cca 25mA
--	vysílací špička cca 120mA
+-	vysílací špička cca 120mA                                                                                                              [1]
 
 ### Tutoriál
 
