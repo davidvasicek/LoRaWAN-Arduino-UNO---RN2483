@@ -30,7 +30,7 @@ LoRaWAN Arduino UNO je malý modulek, na jehož horní straně je transceiver RN
 
 Výsledkem tohoto tutoriálu je čidlo založené na desce LoRaWAN Arduino UNO s vysílacím modulem RN2483 umožňující zasílaní krátkých zpráv prostřednictvím bezdrátové technologie LoRa. Tyto zprávy mohou obsahovat například informace o okolních teplotách získávány z externího teplotního senzoru, které je možné k desce LoRaWAN Arduino UNO připojit, nebo informace z mnoha jiných senzorů kompatibilních s touto deskou.
 
-Kompletní tutoriál naleznete ve formátu .pdf [zde](https://www.google.com)
+Kompletní tutoriál naleznete ve formátu .pdf [zde](https://github.com/davidvasicek/LoRaWAN-Arduino-UNO---RN2483/blob/master/LoRaWAN-Arduino-UNO---RN2483_tutorial.pdf)
                                                                                         
 ### Obsah adresáře
 
