@@ -6,7 +6,7 @@ Tento projekt byl vytvořen za účelem testování LoRaWAN sítě v oblasti Ost
 
 V rámci tohoto projektu bylo vytvořeno 8 čidel založených na deskách LoRaWAN Arduino UNO s čipem RN2483 napájených stabilizovaným 3V3 napětím devíti voltové externí baterie a integrovaným MicroUSB konektorem. Každý takovýto modul vysílá prostřednictvím LoRaWAN sítě o frekvenci 433/868 MHz krátký textový řetězec obsahující svou identifikaci, která je zachytávána LoRa Gateway (TTN-GW-VSB) a vizualizována v prostředí The Things Network (TTN). Na základě této komunikace je následně možné určit vysílající výkonovou úrověň daných senzorů a tím vytvořit reálnou mapu pokrytí LoRaWAN sítě dané oblasti.
 
-Pro účely testování bylo zapotřebí obejít Duty Cycle modulu RN2483, který nám omezoval zasílání zpráv v kratších intervalech. Každý takovýto modul RN2483 obsahuje vnitřní čítač zabraňující porušení vysílajících oprávnění přesahující 1% vysílající hodiny. Proto byl modul opakovaně resetován, čímž byl vymazán i jeho vnitřní čítač a možnost testování v kratších časových intervalech.
+Pro účely testování bylo zapotřebí obejít Duty Cycle modulu RN2483, který nám omezoval zasílání zpráv v kratších intervalech. Každý takovýto modul RN2483 obsahuje vnitřní čítač zabraňující porušení vysílajících oprávnění přesahující 1% vysílající hodiny. Proto byl modul opakovaně resetován, čímž byl vymazán i jeho vnitřní čítač a tím jsme umožnili testování v kratších časových intervalech.
 
 ![alt text](https://github.com/davidvasicek/LoRaWAN-Arduino-UNO---RN2483/blob/master/IMG_LoRaWAN-Arduino-UNO.JPG)
 ![alt text](https://github.com/davidvasicek/LoRaWAN-Arduino-UNO---RN2483/blob/master/IMG_LoRaWAN-Arduino-UNO_1.JPG)
